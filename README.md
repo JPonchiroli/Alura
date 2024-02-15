@@ -4,7 +4,7 @@ Welcome to my repository! Here you'll find a collection of projects that I've cr
 
 ## Front-end Projects
 
-### Project 1: [Organo](https://github.com/JPonchiroli/Alura/tree/main/Front-End/organo)
+### Project 1: [Organo](https://github.com/JPonchiroli/Alura/tree/main/Front-End/organo) <img alt="react" src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=React&logoColor=black">
 Description: [Brief description of the project]
 Languages/Technologies: React.js [Any other relevant technologies]
 [Add any additional information or links]

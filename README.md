@@ -5,49 +5,41 @@ Welcome to my repository! Here you'll find a collection of projects that I've cr
 ## Front-end Projects
 
 ### Project 1: [Organo](https://github.com/JPonchiroli/Alura/tree/main/Front-End/organo)
-Description: [Brief description of the project]
-Languages/Technologies: React.js [Any other relevant technologies]
-[Add any additional information or links]
+Description: A website focused on creation of groups and add collaborators in them. <br />
+Languages/Technologies: React.js 
 
 ### Project 2: [Space-App](https://github.com/JPonchiroli/Alura/tree/main/Front-End/space-app)
-Description: [Brief description of the project]
-Languages/Technologies: React.js [Any other relevant technologies]
-[Add any additional information or links]
+Description: A website focused on visualization of images with zoom modal. <br />
+Languages/Technologies: React.js 
 
 ### Project 3: [Meteora](https://github.com/JPonchiroli/Alura/tree/main/Front-End/meteora)
-Description: [Brief description of the project]
-Languages/Technologies: React.js [Any other relevant technologies]
-[Add any additional information or links]
+Description: A website focusesd in context API to avoid Prop Drilling
+Languages/Technologies: React.js, React-Router-DOM, Context-API
 
 ### Project 4: [Cine-Tag](https://github.com/JPonchiroli/Alura/tree/main/Front-End/cine-tag)
-Description: [Brief description of the project]
-Languages/Technologies: React.js [Any other relevant technologies]
-[Add any additional information or links]
+Description: A website focused on recap all the basic topics in React
+Languages/Technologies: React.js, React-Router-DOM
 
 ## Programming (Back-end) Projects
 
 ### Project 1: [Alura-Books-Server](https://github.com/JPonchiroli/Alura/tree/main/Programming/alura-books-server)
-Description: [Brief description of the project]
-Languages/Technologies: Node.js, Express.js [Any other relevant technologies]
-[Add any additional information or links]
+Description: The Full back-end of 'Alura-Books', with CRUD of the Books and Favorites 
+Languages/Technologies: Node.js, Express.js 
 
 ### Project 2: [Alura-Books](https://github.com/JPonchiroli/Alura/tree/main/Programming/alura-books)
-Description: [Brief description of the project]
-Languages/Technologies: React.js [Any other relevant technologies]
-[Add any additional information or links]
+Description: A website focused in show the books registered in the JSON back-end, with search bar and favorite option <br />
+Languages/Technologies: React.js, React-Router-DOM
 
 
 ## Mobile Development Projects
 
 ### Project 1: [Task-Levels](https://github.com/JPonchiroli/Alura/tree/main/Mobile/taks-levels)
-Description: [Brief description of the project]
-Languages/Technologies: Flutter, Dart, Firebase, [Any other relevant technologies]
-[Add any additional information or links]
+Description: An application focused on measuring skill proficiency levels. <br />
+Languages/Technologies: Flutter, Dart
 
 ### Project 2: [Gatito](https://github.com/JPonchiroli/Alura/tree/main/Mobile/gatito)
-Description: [Brief description of the project]
-Languages/Technologies: React Native, Expo [Any other relevant technologies]
-[Add any additional information or links]
+Description: An application focused on adding services to a shopping cart and calculating the purchase value <br />
+Languages/Technologies: React Native, Expo, Bottom-Tab-Navigator
 
 
 ## Contribution

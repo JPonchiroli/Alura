@@ -1,5 +1,7 @@
 import styled from "styled-components";
-import unfavoriteIcon from "./unfavorite.png";
+import unFavoriteIcon from "./unfavorite.png";
+import favoriteIcon from "./favorite.png"
+import { useFavoriteContext } from "../../contexts/Favorites";
 
 const Container = styled.div`
   padding: 0 0 1em 0;
@@ -25,11 +27,20 @@ const Favorite = styled.img`
 `;
 
 export default function Card({ id, title, cover }) {
+  const { favorite, addFavorite } = useFavoriteContext();
+  const isFavorite = favorite.some((fav) => fav.id === id)
+  const icon = !isFavorite ? unFavoriteIcon : favoriteIcon
   return (
     <Container>
       <Cover src={cover} alt={title} />
       <Title>{title}</Title>
-      <Favorite src={unfavoriteIcon} alt="Favorite Movie" />
+      <Favorite
+        src={icon}
+        alt="Favorite Movie"
+        onClick={() => {
+          addFavorite({ id, title, cover });
+        }}
+      />
     </Container>
   );
 }

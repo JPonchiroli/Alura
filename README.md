@@ -13,17 +13,17 @@ Description: A website focused on visualization of images with zoom modal. <br /
 Languages/Technologies: React.js 
 
 ### Project 3: [Meteora](https://github.com/JPonchiroli/Alura/tree/main/Front-End/meteora)
-Description: A website focusesd in context API to avoid Prop Drilling
+Description: A website focusesd in context API to avoid Prop Drilling. <br />
 Languages/Technologies: React.js, React-Router-DOM, Context-API
 
 ### Project 4: [Cine-Tag](https://github.com/JPonchiroli/Alura/tree/main/Front-End/cine-tag)
-Description: A website focused on recap all the basic topics in React
+Description: A website focused on recap all the basic topics in React. <br />
 Languages/Technologies: React.js, React-Router-DOM
 
 ## Programming (Back-end) Projects
 
 ### Project 1: [Alura-Books-Server](https://github.com/JPonchiroli/Alura/tree/main/Programming/alura-books-server)
-Description: The Full back-end of 'Alura-Books', with CRUD of the Books and Favorites 
+Description: The Full back-end of 'Alura-Books', with CRUD of the Books and Favorites <br />
 Languages/Technologies: Node.js, Express.js 
 
 ### Project 2: [Alura-Books](https://github.com/JPonchiroli/Alura/tree/main/Programming/alura-books)

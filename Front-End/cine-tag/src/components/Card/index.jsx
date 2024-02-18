@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import favoriteIcon from "./favorite.png";
+import unfavoriteIcon from "./unfavorite.png";
 
 const Container = styled.div`
   padding: 0 0 1em 0;
@@ -29,7 +29,7 @@ export default function Card({ id, title, cover }) {
     <Container>
       <Cover src={cover} alt={title} />
       <Title>{title}</Title>
-      <Favorite src={favoriteIcon} alt="Favorite Movie" />
+      <Favorite src={unfavoriteIcon} alt="Favorite Movie" />
     </Container>
   );
 }

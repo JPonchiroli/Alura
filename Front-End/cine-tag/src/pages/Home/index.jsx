@@ -3,6 +3,13 @@ import Banner from "../../components/Banner";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Card from "../../components/Card";
+import videos from "../../json/db.json";
+import styled from "styled-components";
+
+const Container = styled.section`
+    display: flex;
+    justify-content: space-around;
+`
 
 export default function Home() {
   return (
@@ -10,11 +17,11 @@ export default function Home() {
       <Header />
       <Banner image="home" />
       <Title text="A place to keep your videos and movies!" />
-      <Card
-        id="1"
-        title="First Movie"
-        cover="https://upload.wikimedia.org/wikipedia/pt/b/bf/O_auto_da_compadecida.jpg"
-      />
+      <Container>
+        {videos.map((video) => {
+          return <Card {...video} key={video.id} />;
+        })}
+      </Container>
       <Footer />
     </>
   );

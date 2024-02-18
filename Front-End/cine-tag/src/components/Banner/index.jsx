@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 const StyledBanner = styled.div`
   width: 100%;
-  height: 374px;
+  height: 347px;
   background-size: cover;
   background-repeat: no-repeat;
 `;

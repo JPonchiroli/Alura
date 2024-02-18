@@ -4,7 +4,7 @@ import unfavoriteIcon from "./unfavorite.png";
 const Container = styled.div`
   padding: 0 0 1em 0;
   margin-top: 0.5em;
-  width: 202px;
+  width: 282px;
   background-color: var(--gray);
   display: flex;
   flex-direction: column;

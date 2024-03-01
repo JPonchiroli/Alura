@@ -3,6 +3,7 @@ import Banner from "../../components/Banner";
 import styled from "styled-components";
 import videos from "../../json/db.json";
 import { useParams } from "react-router-dom";
+import NotFound from "../NotFound";
 
 const StyledIframe = styled.iframe`
   height: 80vh;
@@ -16,7 +17,11 @@ export default function Player() {
   const video = videos.find((video) => {
     return video.id === Number(params.id);
   });
-  console.log(video);
+
+  if (!video) {
+    return <NotFound />;
+  }
+
   return (
     <>
       <Banner image="player" />

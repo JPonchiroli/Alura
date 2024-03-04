@@ -18,7 +18,7 @@ Languages/Technologies: React.js, React-Router-DOM, Context-API
 
 ### Project 4: [Cine-Tag](https://github.com/JPonchiroli/Alura/tree/main/Front-End/cine-tag)
 Description: A website focused on recap all the basic topics in React. <br />
-Languages/Technologies: React.js, React-Router-DOM
+Languages/Technologies: React.js, React-Router-DOM, Context-API
 
 ## Programming (Back-end) Projects
 

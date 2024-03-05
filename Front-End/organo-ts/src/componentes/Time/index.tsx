@@ -6,7 +6,7 @@ interface TimeProps {
   corPrimaria: string;
   corSecundaria: string;
   nome: string;
-  colaboradores: IColaborador[]
+  colaboradores: IColaborador[];
 }
 
 const Time = (props: TimeProps) => {
@@ -28,7 +28,7 @@ const Time = (props: TimeProps) => {
       </div>
     </section>
   ) : (
-    ""
+    <></>
   );
 };
 

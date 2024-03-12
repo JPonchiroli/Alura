@@ -20,7 +20,7 @@ Languages/Technologies: React.js, React-Router-DOM, Context-API
 Description: A website focused on recap all the basic topics in React. <br />
 Languages/Technologies: React.js, React-Router-DOM, Context-API
 
-### Project 5: [Organo](https://github.com/JPonchiroli/Alura/tree/main/Front-End/organo-ts)
+### Project 5: [Organo-ts](https://github.com/JPonchiroli/Alura/tree/main/Front-End/organo-ts)
 Description: A refactoring of the organo project base for typescript, focusing on prop typing <br />
 Languages/Technologies: React, TypeScript
 

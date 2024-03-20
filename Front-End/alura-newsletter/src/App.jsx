@@ -6,6 +6,7 @@ export default function App() {
     <>
       <Header />
       <ArticleList />
+      <div className="mt-10"></div>
     </>
   );
 }

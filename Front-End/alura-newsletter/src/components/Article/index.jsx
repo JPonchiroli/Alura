@@ -1,10 +1,10 @@
 export default function Article({ title, text, tags, image, alt }) {
   return (
-    <div className="p-5 bg-gray-200 dark:bg-dark-200 gap-2 sm:rounded-xl sm:shadow-lg flex-col items-center">
+    <div className="p-5 bg-gray-200 dark:bg-dark-200 gap-2 sm:rounded-xl sm:shadow-lg flex-col items-center sm:hover:shadow-gray-500 sm:hover:dark:shadow-gray-black sm:hover:shadow-lg">
       <div className="w-full flex-row justify-end gap-2 pr-5 hidden sm:flex">
         {tags.map((tag) => (
           <span
-            className="bg-alura-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 font-bold text-xs uppercase"
+            className="bg-alura-100 dark:bg-dark-100 px-4 py-1 rounded-full text-gray-200 font-bold text-xs uppercase hover:bg-alura-200 hover:scale-110"
             key={tag}
           >
             {tag}

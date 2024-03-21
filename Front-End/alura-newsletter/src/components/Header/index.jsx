@@ -6,7 +6,9 @@ export default function Header({ user }) {
       <span className="text-gray-100 text-xl">
         Hello, {user?.name || "Usuário"}
       </span>
-      <h1 className="text-gray-100 text-xl">Alura Newsletter</h1>
+      <h1 className="text-gray-100 text-xl sm:hover:text-2xl sm:cursor-pointer">
+        Alura Newsletter
+      </h1>
       <ToggleTheme />
     </div>
   );

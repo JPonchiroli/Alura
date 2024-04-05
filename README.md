@@ -34,6 +34,10 @@ Languages/Technologies: Node.js, Express.js
 Description: A website focused in show the books registered in the JSON back-end, with search bar and favorite option <br />
 Languages/Technologies: React.js, React-Router-DOM
 
+### Project 3: [Alura-First-Java-Application](https://github.com/JPonchiroli/Alura/tree/main/Programming/alura-first-java-application)
+Description: An application focused on introduce the java language with declaration of variables, receiving data and loops <br />
+Languages/Technologies: Java
+
 
 ## Mobile Development Projects
 
@@ -44,7 +48,6 @@ Languages/Technologies: Flutter, Dart
 ### Project 2: [Gatito](https://github.com/JPonchiroli/Alura/tree/main/Mobile/gatito)
 Description: An application focused on adding services to a shopping cart and calculating the purchase value <br />
 Languages/Technologies: React Native, Expo, Bottom-Tab-Navigator
-
 
 ## Contribution
 

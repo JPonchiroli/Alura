@@ -38,6 +38,9 @@ Languages/Technologies: React.js, React-Router-DOM
 Description: An application focused on introduce the java language with declaration of variables, receiving data and loops <br />
 Languages/Technologies: Java
 
+### Project 4: [Type-AdoPet](https://github.com/JPonchiroli/Alura/tree/main/Programming/type-adoPet)
+Description: Application focused on back-end development in TypeScript, utilizing native and custom types, SQLite database manipulation with TypeORM, and the creation of generic filters. <br />
+Languages/Technologies: TypeScript
 
 ## Mobile Development Projects
 

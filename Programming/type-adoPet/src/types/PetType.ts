@@ -1,11 +1,18 @@
-import EnumEspecie from "../enum/EnumEspecie";
+import PetEntity from "../entities/PetEntity";
 
-type PetType = {
-  id: number;
-  nome: string;
-  especie: EnumEspecie;
-  dataDeNascimento: Date;
-  adotado: boolean;
+type TipoRequestBodyPet = Omit<PetEntity, "id">;
+
+type TipoRequestParamsPet = {
+  id?: string;
+  pet_id?: string;
+  adotante_id?: string;
 };
 
-export default PetType;
+type TipoResponseBodyPet = {
+  data?:
+    | Pick<PetEntity, "id" | "nome" | "porte" | "especie">
+    | Pick<PetEntity, "id" | "nome" | "porte" | "especie">[];
+  error?: unknown;
+};
+
+export { TipoRequestBodyPet, TipoResponseBodyPet, TipoRequestParamsPet };

@@ -4,6 +4,7 @@ import AdotanteRepository from "../repositories/AdotanteRepository";
 import { AppDataSource } from "../config/dataSource";
 import { middlewareValidadadorBodyAdotante } from "../middleware/validadores/adotanteRequestBody";
 import { RequestHandler } from "express-serve-static-core";
+import { middlewareValidadadorBodyEndereco } from "../middleware/validadores/enderecoRequestBody";
 
 const router = express.Router();
 const adotanteRepository = new AdotanteRepository(
@@ -11,10 +12,13 @@ const adotanteRepository = new AdotanteRepository(
 );
 const adotanteController = new AdotanteController(adotanteRepository);
 
-const validateBody: RequestHandler = (req, res, next) =>
+const validateBodyAdotante: RequestHandler = (req, res, next) =>
   middlewareValidadadorBodyAdotante(req, res, next);
 
-router.post("/", validateBody, (req, res) =>
+const validateBodyEndereco: RequestHandler = (req, res, next) =>
+  middlewareValidadadorBodyEndereco(req, res, next);
+
+router.post("/", validateBodyAdotante, (req, res) =>
   adotanteController.criaAdotante(req, res)
 );
 
@@ -26,7 +30,7 @@ router.delete("/:id", (req, res) =>
   adotanteController.deletaAdotante(req, res)
 );
 
-router.patch("/:id", (req, res) =>
+router.patch("/:id", validateBodyEndereco, (req, res) =>
   adotanteController.atualizaEnderecoAdotante(req, res)
 );
 
